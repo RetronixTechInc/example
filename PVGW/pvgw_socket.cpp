@@ -478,11 +478,10 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		printf("usage :\n");
-		printf("argv[0] server-ip tag [val]\n");
+		printf("usage : %s server-ip tag [val]\n", argv[0]);
 		printf("Example:\n");
-		printf("Read : argv[0] server-ip read-tag\n");
-		printf("Write : argv[0] server-ip write-tag 33\n");
+		printf("\tRead : %s  server-ip read-tag\n", argv[0]);
+		printf("\tWrite : %s  server-ip write-tag 33\n", argv[0]);
 		printf("\n");
 		
 		return 0;
